@@ -36,6 +36,10 @@ The following prerequisites must be met before an adapter can be added to Weblat
    - `Flag new source strings as "Needs editing"`
    - `Flag new translations as "Needs editing"`
    - If the adapter uses Gulp to generate the words.js, also install `ioBroker: Save translations into words.js`
+1. Go back to the component and choose "Manage" > "Settings"
+   - Go to the tab "Version control"
+   - Scroll to the bottom and change "Age of changes to commit" to `3`
+   - Click on "Save" to store this change
 1. Go back to the component and choose "Tools" > "Bulk edit"
    - Make a custom search for `NOT language:en`
    - Set state to `Needs editing`
