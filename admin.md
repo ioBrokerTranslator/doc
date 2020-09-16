@@ -6,7 +6,7 @@ This guide explains the different tasks ioBroker Weblate administrators need to 
 
 ### Prerequisites
 
-The following prerequisites must be met before an adapter can be added to the repository:
+The following prerequisites must be met before an adapter can be added to Weblate:
 
 - The adapter must contain the i18n files in a separate folder with the default naming scheme
 - If the adapter is using `gulp`, ensure all files are up-to-date by calling `gulp translateAndUpdateWordsJS` and commit and push those changes
