@@ -48,3 +48,17 @@ To show that your adapter is being translated with Weblate, please add the follo
 [![Translation status](https://weblate.iobroker.net/widgets/adapters/-/<your adapter name>/svg-badge.svg)](https://weblate.iobroker.net/engage/adapters/?utm_source=widget)
 ```
 (Replace `<your adapter name>` with the name of your adapter.)
+
+## Maintenance of your adapter
+
+### Regularly merge pull requests
+
+Once your adapter is connected to Weblate, you will receive automatic pull requests whenever somebody changes texts in Weblate.
+Please make sure, you merge those pull requests as quickly as possible or at least before committing (or merging) code onto your `master` branch.
+
+Reason for this is, you will get merge conflicts locally - or even worse on Weblate - if you don't keep your source code up-to-date. Solving merge conflicts locally is possible and in some cases, it solves conflicts in Weblate, but there are cases where you have no choice but to remove all pending changes in Weblate which leads to lost translations.
+
+### Adding translations
+
+It is still possible to edit language files in your project, but it is strongly recommended to do this only for adding and removing strings; not for editing translations. 
+Editing translations locally can cause conflicts with updated translations coming from Weblate.
