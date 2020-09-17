@@ -26,7 +26,8 @@ The following prerequisites must be met before an adapter can be added to Weblat
    - File format is always `JSON file`
    - Filemask is similar to `admin/i18n/*/translations.json`
 1. Click on "Continue"
-1. Review the settings and update the following (everything else should ok as it is):
+1. Review the settings and update the following (everything else should be ok as it is):
+   - Repository browser: `https://github.com/<user>/<name>/blob/{{branch}}/{{filename}}#L{{line}}` (Example: `https://github.com/ioBroker/ioBroker.zigbee/blob/{{branch}}/{{filename}}#L{{line}}`)
    - Translation license: should be equal to the license of the adapter (usually found in LICENSE file of the given adapter)
 1. Click on "Save" to create the component
 1. Once the creation is completed, click on "Return to the component"
