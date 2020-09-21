@@ -31,7 +31,7 @@ Ask one of the Weblate administrators to add your adapter.
 
 Once an administrator has added your adapter, all translations will be marked as "needing action" (except for English).
 Take time to review all translations that you have done manually or that you feel are OK as they are:
-1. Go to `https://weblate.iobroker.net/projects/adapters/<your adapter name>/` (e.g. https://weblate.iobroker.net/projects/adapters/loxone)
+1. Go to `https://weblate.iobroker.net/projects/adapters/<your adapter name>/` (e.g. https://weblate.iobroker.net/projects/adapters/tado)
 2. Click on a language you translated manually (or that you know well enough to be sure about the translations)
 3. Click on "Strings marked for edit"
 4. Review the given string and edit it, if needed
@@ -47,7 +47,11 @@ To show that your adapter is being translated with Weblate, please add the follo
 ```markdown
 [![Translation status](https://weblate.iobroker.net/widgets/adapters/-/<your adapter name>/svg-badge.svg)](https://weblate.iobroker.net/engage/adapters/?utm_source=widget)
 ```
-(Replace `<your adapter name>` with the name of your adapter.)
+Replace `<your adapter name>` with the name of your adapter (only the part after "ioBroker."). Example:
+```markdown
+[![Translation status](https://weblate.iobroker.net/widgets/adapters/-/tado/svg-badge.svg)](https://weblate.iobroker.net/engage/adapters/?utm_source=widget)
+```
+[![Translation status](https://weblate.iobroker.net/widgets/adapters/-/tado/svg-badge.svg)](https://weblate.iobroker.net/engage/adapters/?utm_source=widget)
 
 ## Maintenance of your adapter
 
