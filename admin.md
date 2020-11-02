@@ -20,7 +20,7 @@ The following prerequisites must be met before an adapter can be added to Weblat
    - Project: leave at `ioBroker Adapters`
    - Version control system: change to `GitHub`
    - Source repository: HTTPS URL of the repository (Example: `https://github.com/UncleSamSwiss/ioBroker.loxone`)
-   - Repository branch: always `master`
+   - Repository branch: always the default branch (in most of the cases this is `master` or `main`)
 1. Start the detection by clicking on "Continue"
 1. Choose translation files to import:
    - File format is always `JSON file`
