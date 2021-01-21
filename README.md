@@ -25,7 +25,7 @@ The following prerequisites must be met before an adapter can be added to Weblat
    
 ### Request
 
-Ask one of the Weblate administrators to add your adapter.
+Please create an issue in [requests](https://github.com/ioBrokerTranslator/requests/blob/main/README.md) to add your adapter.
 
 ### Review translations
 
