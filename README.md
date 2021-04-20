@@ -55,10 +55,14 @@ Replace `<your adapter name>` with the name of your adapter (only the part after
 
 ## Maintenance of your adapter
 
+### Don't alter the Git tree
+
+Please never use `push --force` or any other method that rewrites your default branch. Doing so will immediately lock the translation of the adapter and any pending translations will be lost forever!
+
 ### Regularly merge pull requests
 
 Once your adapter is connected to Weblate, you will receive automatic pull requests whenever somebody changes texts in Weblate.
-Please make sure, you merge those pull requests as quickly as possible or at least before committing (or merging) code onto your `master` branch.
+Please make sure, you merge those pull requests as quickly as possible or at least before committing (or merging) code onto your `master` or `main` branch. **DO NOT** use "Squash and merge" or "Rebase and merge" for Weblate pull requests!
 
 Reason for this is, you will get merge conflicts locally - or even worse on Weblate - if you don't keep your source code up-to-date. Solving merge conflicts locally is possible and in some cases, it solves conflicts in Weblate, but there are cases where you have no choice but to remove all pending changes in Weblate which leads to lost translations.
 
