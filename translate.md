@@ -5,7 +5,7 @@ This document contains information and guidelines for everybody who likes to con
 Many parts of ioBroker are translated into different languages. These include, but are not limited to:
 - Core adapters like [ioBroker.admin](https://github.com/ioBroker/ioBroker.admin), [ioBroker.discovery](https://github.com/ioBroker/ioBroker.discovery), [ioBroker.info](https://github.com/ioBroker/ioBroker.info)
 - Well over 300 community adapters
-- Common Tools
+- Common tools
 - Documentation
 
 All those translations should be managed in the future through our own [Weblate](https://weblate.iobroker.net/) server.
