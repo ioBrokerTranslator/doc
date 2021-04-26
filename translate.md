@@ -70,6 +70,12 @@ Strings are marked with different colors. They have the following meaning:
 
 The following guidelines are valid for all translations.
 
+### Have a Look at the Current Translation in ioBroker
+
+Before editing a string, it might be a good idea to install the given adapter and have a look at how the string is used. This might help you find the right wording.
+
+If you don't find the string, don't hesitate to search in the code (most of the time, you'll find the "key" somewhere in the code) or ask the original developer.
+
 ### Keep the same Language
 
 Google Translate has the tendency to translate the same term differently depending on the sentence it is used in.
@@ -119,6 +125,12 @@ Examples:
 - German: `Wie soll dieser Adapter konfiguriert werden?`
 - French: `Comment cet adaptateur doit-il être configuré ?` (notice the space before the question mark as this is the way questions are usually written in French)
 - Spanish: `¿Cómo desea configurar este adaptador?` (notice the the `¿` in front of the question as it is done in Spanish)
+
+### Keep a Similar Length
+
+It is not always possible, but try to keep a similar length for the translated strings.
+
+For example a one-word string might be used as a column header; if you translate it now with a three-words string, the column might accidentally get bigger than the developer anticipated.
 
 # Language Specific Guidelines
 
