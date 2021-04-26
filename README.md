@@ -3,6 +3,8 @@ This repository contains the documentation of the translation process for ioBrok
 
 General information is found in this file, admins need to look [here](./admin.md) as well.
 
+If you want to help translating ioBroker, please have a look [here](./translate.md).
+
 ## Request an adapter to be added to Weblate
 
 If you wish your adapter translations to be managed by Weblate, please ensure the following prerequisites are met and follow the instructions below.
