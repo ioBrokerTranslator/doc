@@ -24,7 +24,7 @@ This document will not cover how Weblate works but rather concentrates on the sp
 
 For a general documentation, please refer to the [official Weblate documentation](https://docs.weblate.org/en/latest/user/translating.html).
 
-If you have further questions, please don't hesitate to ask them in our [forum](https://forum.iobroker.net/) or on [Discord](https://discord.com/invite/HwUCwsH).
+If you have further questions, please don't hesitate to ask them in our [forum](https://forum.iobroker.net/), on [Discord](https://discord.com/invite/HwUCwsH) or in our dedicated [Telegram group](https://t.me/joinchat/RpbX0672BFw1MDg0).
 
 ## Structure
 
