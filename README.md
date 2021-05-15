@@ -1,9 +1,11 @@
 # Purpose
 This repository contains the documentation of the translation process for ioBroker.
 
-General information is found in this file, admins need to look [here](./admin.md) as well.
+## Who are you?
 
-If you want to help translating ioBroker, please have a look [here](./translate.md).
+- **Translator:** if you want to help translating ioBroker, please [read this document carefully](./translate.md)
+- **Developer:** [continue reading in this document](#request-an-adapter-to-be-added-to-weblate)
+- **Admin:** have a look [here](./admin.md) as well
 
 ## Request an adapter to be added to Weblate
 
