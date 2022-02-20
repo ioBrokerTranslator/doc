@@ -20,6 +20,7 @@ The following prerequisites must be met before an adapter can be added to Weblat
 ### Preparation
 
 1. If the adapter is using `gulp`, ensure all files are up-to-date by calling `gulp translateAndUpdateWordsJS` and commit and push those changes to master
+1. If the adapter is using `@iobroker/adapter-dev`, ensure all files are up-to-date by calling `npm run translate all` and commit and push those changes to master
 1. Configure the following repository hook on GitHub
    - Go to the GitHub page of the adapter
    - Click on the "Settings" tab
