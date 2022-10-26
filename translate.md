@@ -45,6 +45,7 @@ Each component is translated into different languages. Currently we support the 
 - Russian (ru)
 - Spanish (es)
 - Simplified Chinese (zh_Hans)
+- Ukrainian (uk)
 
 ## Process
 
