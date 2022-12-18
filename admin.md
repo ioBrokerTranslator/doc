@@ -10,7 +10,7 @@ The following prerequisites must be met before an adapter can be added to Weblat
 
 - The adapter must contain the i18n files in a separate folder with the default naming scheme
 - If the adapter is using `gulp`, ensure all files are up-to-date by calling `gulp translateAndUpdateWordsJS` and commit and push those changes
-- If the adapter is using @iobroker/adapter-dev, ensure all files are up-to-date by calling npm run translate all and commit and push those changes to master
+- If the adapter is using `@iobroker/adapter-dev`, ensure all files are up-to-date by calling `npm run translate all` and commit and push those changes to master
 
 ### Create component in Weblate
 
