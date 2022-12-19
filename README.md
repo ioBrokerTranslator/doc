@@ -73,5 +73,6 @@ Reason for this is, you will get merge conflicts locally - or even worse on Webl
 
 ### Adding translations
 
-It is still possible to edit language files in your project, but it is strongly recommended to do this only for adding and removing strings; not for editing translations. 
-Editing translations locally can cause conflicts with updated translations coming from Weblate.
+It is still possible to edit language files in your project, but it is strongly recommended to do this only for adding and removing strings; not for editing translations. Synchronistaion of new strings works in both directions - from your repository to weblate and from weblate to repository. It's save to use `npm run translate` - as this command will only add new strings - and to commit the new files. Weblate will fetch the new files using the webhooks configured during setup.
+
+**Important:** Editing translations locally can cause conflicts with updated translations coming from Weblate and should be avoided.
