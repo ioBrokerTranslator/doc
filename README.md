@@ -82,7 +82,7 @@ Whenever you add a new translation string to the source file (en/translations.js
 - `gulp translateAndUpdateWordsJS` if the adapter is using `gulp`
 - `npm run translate` if the adapter is using `@iobroker/adapter-dev`
 
-and commit and push those changes to master (main).
+and commit and push those changes to master (main). Note that the commands listed above will add new strings to the language files only but not change any existing translation.
 
 Weblate will be updated automatically.
 
