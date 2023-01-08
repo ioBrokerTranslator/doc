@@ -19,7 +19,7 @@ The following prerequisites must be met before an adapter can be added to Weblat
    - Component name: Name of the adapter in lowercase without "ioBroker." (Example: `loxone` for the adapter ioBroker.loxone)
    - URL slug: same as component name above - do not shorten it!
    - Project: leave at `ioBroker Adapters`
-   - Version control system: change to `GitHub`
+   - Version control system: change to `GitHub pull request`
    - Source repository: HTTPS URL of the repository (Example: `https://github.com/UncleSamSwiss/ioBroker.loxone`)
    - Repository branch: always the default branch (in most of the cases this is `master` or `main`)
 1. Start the detection by clicking on "Continue"
