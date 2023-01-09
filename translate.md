@@ -95,7 +95,7 @@ Examples are:
 - Channel
 - Controller
 - Device
-- IP address
+- IP-Address
 - Port
 - State
 
@@ -119,6 +119,8 @@ If the English text contains formatting charcters or HTML tags, try to keep them
 
 ### Keep the Same Punctuation
 
+Terminate all complete sentences with the correct punctuation - most likely a dot.
+
 If the English text has punctuation (especially at the end of the string) make sure, you keep them - but of course adjust them to your language.
 
 Examples:
@@ -132,6 +134,10 @@ Examples:
 It is not always possible, but try to keep a similar length for the translated strings.
 
 For example a one-word string might be used as a column header; if you translate it now with a three-words string, the column might accidentally get bigger than the developer anticipated.
+
+### Labels Should Start With a Capital Letter
+
+Labels should always start with a capital letter whether it is a noun or not.
 
 # Language Specific Guidelines
 
