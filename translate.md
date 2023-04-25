@@ -95,7 +95,7 @@ Examples are:
 - Channel
 - Controller
 - Device
-- IP-Address
+- IP Address
 - Port
 - State
 
