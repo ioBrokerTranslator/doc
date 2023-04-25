@@ -45,6 +45,8 @@ Take time to review all translations that you have done manually or that you fee
 7. Go to step 4. for the next string shown.
 8. Once you're done with one language, go to step 1. and choose the next language (if applicable)
 
+Please use "check other occurences" to compare your translation with translations from other adapters. This should lead to consistent translations over all adapters as far as possible.
+
 ### Add badge to README.md
 
 To show that your adapter is being translated with Weblate, please add the following badge after all other badges to your README.md on GitHub:
@@ -71,7 +73,25 @@ Please make sure, you merge those pull requests as quickly as possible or at lea
 
 Reason for this is, you will get merge conflicts locally - or even worse on Weblate - if you don't keep your source code up-to-date. Solving merge conflicts locally is possible and in some cases, it solves conflicts in Weblate, but there are cases where you have no choice but to remove all pending changes in Weblate which leads to lost translations.
 
-### Adding translations
+### Adding new translations
 
 It is still possible to edit language files in your project, but it is strongly recommended to do this only for adding and removing strings; not for editing translations. 
-Editing translations locally can cause conflicts with updated translations coming from Weblate.
+
+Whenever you add a new translation string to the source file (en/translations.json) you must ensure all files are up-to-date by calling 
+
+- `gulp translateAndUpdateWordsJS` if the adapter is using `gulp`
+- `npm run translate` if the adapter is using `@iobroker/adapter-dev`
+
+and commit and push those changes to master (main). Note that the commands listed above will add new strings to the language files only but not change any existing translation.
+
+Weblate will be updated automatically.
+
+### Modifying existing translations
+
+It's strongly recommended to avoid changing existing translations whenever possible.  Editing translations locally can cause conflicts with updated translations coming from Weblate. Corrections to any text should be performed inside weblate only.
+
+If you must modify the contents completly and ensure that the change is done in all languages (i.e. if the logic behind a configuration parameter changes and requires a new description) the best way to do this is removing the existing translation and adding a new one with a new key to the english translations.json file. Afterwards the steps described [at adding new translations](#adding-new-translations) must be executed.
+
+### Removing obsolete translations
+
+If you want to remove an outdated translation simply remove the entry from the source file (en/translations.json). Weblate will detect the removed translation and remove the translation at all languages automatically. You should see a PR from weblate after some time (less than one day). Do not forget to merge this PR.
