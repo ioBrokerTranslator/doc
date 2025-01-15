@@ -37,7 +37,7 @@ The following prerequisites must be met before an adapter can be added to Weblat
    - `Flag unchanged translations as "Needs editing"`
    - `Flag new source strings as "Needs editing"`
    - `Flag new translations as "Needs editing"`
-   - `Flag new translations as "Cleanup translation files"`
+   - `Cleanup translation files`
    - If the adapter provides words.js, also install `ioBroker: Save translations into words.js`
 1. Go back to the component and choose "Manage" > "Settings"
    - Go to the tab "Version control"
